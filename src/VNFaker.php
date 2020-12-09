@@ -2,6 +2,7 @@
 
 namespace Nguyenhiep\Vnfaker;
 
+use Carbon\Carbon;
 class VNFaker
 {
 
@@ -337,6 +338,15 @@ class VNFaker
         $district = $city["quan-huyen"][array_rand($city["quan-huyen"])];
         $village  = $district["xa-phuong"][array_rand($district["xa-phuong"])];
         return $village["path_with_type"];
+    }
+
+    /**
+     * random date of birth
+     * @param int $age
+     * @return Carbon
+     */
+    public static function dob($age = 18){
+        return Carbon::now()->subYears($age)->subMonths(rand(0,12))->subDays(0,31);
     }
 
     /*

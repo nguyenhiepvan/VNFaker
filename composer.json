@@ -18,7 +18,9 @@
             "email": "nguyenhiepvan.bka@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "nesbot/carbon": "^2.42"
+    },
     "extra": {
         "laravel": {
           "providers": [
