@@ -1,5 +1,5 @@
 {
-    "name": "hiepnguyen/vnfaker",
+    "name": "nguyenhiep/vnfaker",
     "description": "VNFaker is a Laravel package that generates fake data about name, city, address, phone,... in Viet Nam",
     "type": "package",
     "keywords": [
