@@ -336,7 +336,7 @@ class VNFaker
         $city     = $addr[array_rand($addr)];
         $district = $city["quan-huyen"][array_rand($city["quan-huyen"])];
         $village  = $district["xa-phuong"][array_rand($district["xa-phuong"])];
-        return $village["name"] . "," . $district["name"] . "," . $city["name"];
+        return "Xã " . $village["name"] . ", Huyện " . $district["name"] . ", Tỉnh " . $city["name"];
     }
 
     /*
