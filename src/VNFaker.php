@@ -341,12 +341,12 @@ class VNFaker
     }
 
     /**
-     * random date of birth
      * @param int $age
      * @return Carbon
      */
     public static function dob($age = 18){
-        return Carbon::now()->subYears($age)->subMonths(rand(0,12))->subDays(0,31);
+        $date = Carbon::now()->subYears($age)->subMonths(rand(0,12))->subDays(0,31);
+        return $date->toDateTimeString();
     }
 
     /*
