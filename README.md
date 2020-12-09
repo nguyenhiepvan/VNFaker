@@ -14,7 +14,7 @@ composer require buihuycuong/vnfaker
 ### Basic Usage
 Add to your class:
 ```php
-use Buihuycuong\Vnfaker\VNFaker;
+use Nguyenhiep\Vnfaker\VNFaker;
 VNFaker::date();
 // 12/02/1980
 # or call via helper function

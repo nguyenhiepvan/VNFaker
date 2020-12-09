@@ -1,6 +1,6 @@
 <?php
 
-namespace Buihuycuong\Vnfaker;
+namespace Nguyenhiep\Vnfaker;
 
 class VNFaker 
 {

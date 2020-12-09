@@ -1,6 +1,6 @@
 <?php 
 
-namespace Buihuycuong\Vnfaker\Facades;
+namespace Nguyenhiep\Vnfaker\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
