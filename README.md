@@ -9,7 +9,7 @@ VNFaker is a Laravel package that generates fake data about name, city, address,
 ### Installation
 
 ```sh
-composer require buihuycuong/vnfaker
+composer require nguyenhiep/vnfaker
 ```
 ### Basic Usage
 Add to your class:
